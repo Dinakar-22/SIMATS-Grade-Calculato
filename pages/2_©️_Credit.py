@@ -14,7 +14,7 @@ st.markdown("""
             **Special Thanks To Streamlit for Free Hosting** \n
             **Server : Streamlit** \n
             **Source: GitHub Open Source Project** \n
-            **Any Feedback Please Let us Know in Github Repository** :rainbow[→] [GitHub](https://github.com/Dinakarsethu/Grade-Cal)
+            **Any Feedback Please Let us Know in Github Repository** :rainbow[→] [GitHub](https://github.com/Dinakar-22/SIMATS-Grade-Calculato/tree/main)
 """)
 st.header('~ Thank You ~')
 st.subheader('',divider='rainbow')
