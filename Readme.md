@@ -4,4 +4,4 @@
 
 **Requirements File : requirements.txt**
 
-**App Link : [https://simats-grade-calculator.streamlit.app](https://github.com/Dinakar-22/SIMATS-Grade-Calculato?tab=readme-ov-file)**
+**App Link : https://simats-grade-calculato.streamlit.app**
