@@ -3,6 +3,7 @@ import streamlit as st
 from PIL import Image
 ##############################################################################
 #theme for page 
+# we use image as back-ground so we disable primary color and secondary colors for back-ground
 #primaryColor="#F63366"
 #backgroundColor="#000000"
 #secondaryBackgroundColor="#C4CAD0"
