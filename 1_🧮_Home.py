@@ -68,7 +68,7 @@ st.write('No of D Grade is ', user_input_5)
 user_input_6 = st.number_input("Enter the No of E Grade:", 0, 50, "min", 1, placeholder="Insert a number...")
 st.write('No of E Grade is ', user_input_6)
 user_input_7 = st.number_input("Enter the No of f Grade:", 0, 50, "min", 0, placeholder="Insert a number...")
-st.write('No of F Grade is ', user_input_7)
+st.write('No of F Grade is ', user_input_7) #no of fail not Consider so we don't use it for calculate gcp
 cgpa = 10*user_input_1 + 9*user_input_2 + 8*user_input_3 + 7*user_input_4 + 6*user_input_5 + 5*user_input_6
 cpa = cgpa/total_no
 #rainbow line
