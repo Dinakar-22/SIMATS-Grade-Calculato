@@ -16,9 +16,16 @@ icon = Image.open("calculator-icon.png")
 st.set_page_config(
     page_title="SIMATS Grades Calculator",
     page_icon=icon,
-    layout="wide"
+    layout="centered"
 )    
-#st.sidebar.markdown("# SIMATS CGPA Calculater 🧮")
+st.markdown(f"""
+            <style>
+            .stApp {{background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+                     background-attachment: fixed;
+                     background-size: cover}}
+         </style>
+         """, unsafe_allow_html=True)
+
 st.header("SIMATS CGPA Calculator 🧮")
 #table
 df = pd.DataFrame(
