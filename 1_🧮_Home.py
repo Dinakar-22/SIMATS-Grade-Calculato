@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 ##############################################################################
 #theme for page 
-primaryColor="#F63366"
+#primaryColor="#F63366"
 #backgroundColor="#000000"
 #secondaryBackgroundColor="#C4CAD0"
 #textColor="#FCF7FF"
