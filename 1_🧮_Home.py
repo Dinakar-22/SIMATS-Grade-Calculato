@@ -4,9 +4,9 @@ from PIL import Image
 ##############################################################################
 #theme for page 
 primaryColor="#F63366"
-backgroundColor="#000000"
-secondaryBackgroundColor="#C4CAD0"
-textColor="#FCF7FF"
+#backgroundColor="#000000"
+#secondaryBackgroundColor="#C4CAD0"
+#textColor="#FCF7FF"
 font="Press Start 2P"    
 # Specify what pages should be shown in the sidebar, and what their titles and icons
 # should be
@@ -26,7 +26,17 @@ st.markdown(f"""
          </style>
          """, unsafe_allow_html=True)
 
-st.header("SIMATS CGPA Calculator 🧮")
+c30, c31, c32 = st.columns([0.2, 0.09, 3.2])
+
+with c30:
+
+    st.caption("")
+
+    st.image("calculator-icon.png", width=60)
+
+with c32:
+
+    st.title("SIMATS Grades Calculator")
 #table
 df = pd.DataFrame(
     [
