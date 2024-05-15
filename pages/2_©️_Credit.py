@@ -1,9 +1,10 @@
 import streamlit as st
 
 #theme for page 
-primaryColor="#F63366"
-backgroundColor="#000000"
-secondaryBackgroundColor="#C4CAD0"
+# we use image as back-ground so we disable primary color and secondary colors for back-ground
+#primaryColor="#F63366"
+#backgroundColor="#000000"
+#secondaryBackgroundColor="#C4CAD0"
 textColor="#FCF7FF"
 font="Press Start 2P"    
 
