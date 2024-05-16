@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Credits", page_icon="©️")
+
 #theme for page 
 # we use image as back-ground so we disable primary color and secondary colors for back-ground
 #primaryColor="#F63366"
@@ -15,8 +17,6 @@ st.markdown(f"""
                      background-size: cover}}
          </style>
          """, unsafe_allow_html=True)
-
-st.set_page_config(page_title="Credits", page_icon="©️")
 
 st.subheader('', divider='rainbow')
 st.markdown("""
